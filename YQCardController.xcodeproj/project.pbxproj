@@ -13,6 +13,9 @@
 		21938E8F1B6C90700028F078 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21938E8E1B6C90700028F078 /* Images.xcassets */; };
 		21938E921B6C90700028F078 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21938E901B6C90700028F078 /* LaunchScreen.xib */; };
 		21938E9E1B6C90700028F078 /* YQCardControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21938E9D1B6C90700028F078 /* YQCardControllerTests.swift */; };
+		21938EA91B6C90B80028F078 /* YQCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21938EA81B6C90B80028F078 /* YQCardController.swift */; };
+		21938EAB1B6C90DF0028F078 /* YQCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21938EAA1B6C90DF0028F078 /* YQCardItem.swift */; };
+		21938EB01B6CA7730028F078 /* YQCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21938EAF1B6CA7730028F078 /* YQCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		21938E971B6C90700028F078 /* YQCardControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQCardControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21938E9C1B6C90700028F078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21938E9D1B6C90700028F078 /* YQCardControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQCardControllerTests.swift; sourceTree = "<group>"; };
+		21938EA81B6C90B80028F078 /* YQCardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQCardController.swift; sourceTree = "<group>"; };
+		21938EAA1B6C90DF0028F078 /* YQCardItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQCardItem.swift; sourceTree = "<group>"; };
+		21938EAF1B6CA7730028F078 /* YQCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YQCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		21938E791B6C90700028F078 = {
 			isa = PBXGroup;
 			children = (
+				21938EA71B6C90970028F078 /* Classes */,
 				21938E841B6C90700028F078 /* YQCardController */,
 				21938E9A1B6C90700028F078 /* YQCardControllerTests */,
 				21938E831B6C90700028F078 /* Products */,
@@ -110,6 +117,16 @@
 				21938E9C1B6C90700028F078 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21938EA71B6C90970028F078 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				21938EA81B6C90B80028F078 /* YQCardController.swift */,
+				21938EAF1B6CA7730028F078 /* YQCardView.swift */,
+				21938EAA1B6C90DF0028F078 /* YQCardItem.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +231,9 @@
 			files = (
 				21938E8A1B6C90700028F078 /* ViewController.swift in Sources */,
 				21938E881B6C90700028F078 /* AppDelegate.swift in Sources */,
+				21938EB01B6CA7730028F078 /* YQCardView.swift in Sources */,
+				21938EAB1B6C90DF0028F078 /* YQCardItem.swift in Sources */,
+				21938EA91B6C90B80028F078 /* YQCardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +429,7 @@
 				21938EA31B6C90700028F078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21938EA41B6C90700028F078 /* Build configuration list for PBXNativeTarget "YQCardControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				21938EA61B6C90700028F078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
